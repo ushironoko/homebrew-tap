@@ -19,9 +19,7 @@ cask "asuku" do
   caveats <<~EOS
     asuku is ad-hoc signed (not notarized by Apple).
 
-    If macOS blocks the app on first launch:
-      brew reinstall --no-quarantine --cask asuku
-    Or manually:
+    If macOS Gatekeeper blocks the app on first launch:
       xattr -cr /Applications/asuku.app
 
     After launch:
