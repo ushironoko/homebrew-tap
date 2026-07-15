@@ -1,6 +1,6 @@
 cask "asuku" do
-  version "0.3.1"
-  sha256 "21f45b9b51861388041960519b6a891150442d06badf351811cda0012e68de42"
+  version "0.4.0"
+  sha256 "3a9bfefea828e2ce59bcb76fb4646d60ebccb645a2bc8d7969d53a31b823bd57"
 
   url "https://github.com/ushironoko/asuku/releases/download/v#{version}/asuku-#{version}.zip"
   name "asuku"
