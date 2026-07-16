@@ -7,7 +7,7 @@ cask "asuku" do
   desc "macOS menu bar app for managing Claude Code permission requests"
   homepage "https://github.com/ushironoko/asuku"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "asuku.app"
 
